@@ -131,7 +131,7 @@ section .content p,
     text-shadow: 3px 2px firebrick;
     line-height: calc(var(--size-h1) * 1.382);
     font-size: var(--size-h1);
-    align-self: center;
+    align-self: auto;
 }
 
 #brief h2 {
@@ -148,4 +148,28 @@ section .content p,
     padding-bottom: 220px;
     margin-bottom: -220px;
     overflow: hidden;
+}
+
+#brief p {
+    text-align: justify;
+    width: 80%;
+    text-indent: 1cm;
+    margin: auto;
+    top: 0;
+    left: 15%;
+    right: 15%;
+    bottom: 0;
+}
+
+#brief div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brief h4 {
+    font-family: "Crimson-Text";
+    text-align: center;
 }
