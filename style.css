@@ -1,7 +1,17 @@
 @charset "utf-8";
 @font-face {
-    font-family: "Edo-SZ";
-    src: url("http://cdn.repository.webfont.com/webfonts/nomal/143795/47808/6056d49ef629d83c24cf286a.css")
+    font-family: "Crimson-Text";
+    src: url("Crimson_Text/CrimsonText-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Special_Elite";
+    src: url("Special_Elite/SpecialElite-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Rock_Salt";
+    src: url("Rock_Salt/RockSalt-Regular.ttf");
 }
 
 :root {
@@ -11,7 +21,7 @@
 
 body {
     background: var(--color-background);
-    font-family: "Edo-SZ", serif;
+    font-family: "Crimson-Text", serif;
     color: var(--color-font);
     margin: 0;
     overflow-x: hidden;
@@ -110,7 +120,7 @@ section .content p,
     --size-h1: calc(40px + (28 - 20) * var(--view-minmax));
     --size-h2: calc(30px + (28 - 20) * var(--view-minmax));
     --size-p: calc(10px + (28 - 20) * var(--view-minmax));
-    font-family: serif;
+    font-family: "Special_Elite";
     min-height: 110vh;
     width: 100vw;
 }
