@@ -1,4 +1,9 @@
 @charset "utf-8";
+@font-face {
+    font-family: "Edo-SZ";
+    src: url('http://cdn.repository.webfont.com/webfonts/nomal/143795/47808/6056d49ef629d83c24cf286a.css')
+}
+
 :root {
     --color-background: #fdfdfd;
     --view-minmax: calc((100vw - 500px) / (1920 - 500));
@@ -6,7 +11,7 @@
 
 body {
     background: var(--color-background);
-    font-family: "plantc", serif;
+    font-family: "Edo-SZ", serif;
     color: var(--color-font);
     margin: 0;
     overflow-x: hidden;
@@ -40,7 +45,7 @@ section .content p,
 }
 
 #intro {
-    --size-h1: calc(42px + (88 - 42) * var(--view-minmax));
+    --size-h1: calc(90px + (88 - 42) * var(--view-minmax));
     --size-h2: calc(30px + (28 - 20) * var(--view-minmax));
     min-height: 110vh;
 }
@@ -122,6 +127,7 @@ section .content p,
     grid-area: h2;
     color: black;
     font-style: italic;
+    font-family: serif;
     line-height: calc(var(--size-h2) + 20px);
     font-size: var(--size-h2);
     opacity: .8;
