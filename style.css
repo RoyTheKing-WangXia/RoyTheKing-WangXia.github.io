@@ -4,6 +4,16 @@
     --view-minmax: calc((100vw - 500px) / (1920 - 500));
 }
 
+body {
+    background: var(--color-background);
+    font-family: "plantc", serif;
+    color: var(--color-font);
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 h1,
 h2,
 p {
