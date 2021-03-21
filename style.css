@@ -20,6 +20,7 @@
 }
 
 body {
+    text-indent: 3%;
     background: var(--color-background);
     font-family: "Crimson-Text", serif;
     color: var(--color-font);
